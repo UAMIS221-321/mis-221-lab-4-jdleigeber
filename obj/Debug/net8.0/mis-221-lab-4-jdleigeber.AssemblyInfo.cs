@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mis-221-lab-4-jdleigeber")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96366320215ed407ba9f8192518697672c3cc62b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c984eb23844391fa3deac6525e1203424cf40094")]
 [assembly: System.Reflection.AssemblyProductAttribute("mis-221-lab-4-jdleigeber")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mis-221-lab-4-jdleigeber")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

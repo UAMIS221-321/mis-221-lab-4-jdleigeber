@@ -38,8 +38,8 @@ static void RouteEm(string userInput){
 
 static void PlainPizza()
     {
-        Random pizza = new Random();
-        int pizzaRow = pizza.Next(8, 13);
+        Random plainPizza = new Random();
+        int pizzaRow = plainPizza.Next(8, 13);
         Random order = new Random();
         int orderNum = order.Next(0, 150);
         Console.WriteLine($"Order up for order number {orderNum}");
@@ -57,8 +57,8 @@ static void PlainPizza()
 
     static void CheesePizza()
     {
-        Random pizza = new Random();
-        int pizzaRows = pizza.Next(8, 13); 
+        Random cheesePizza = new Random();
+        int pizzaRows = cheesePizza.Next(8, 13); 
         Random order = new Random();
         int orderNum = order.Next(0, 150);
         Console.WriteLine($"Order up for order number {orderNum}");
@@ -80,8 +80,8 @@ static void PlainPizza()
 
     static void PepperoniPizza()
     {
-        Random pizza = new Random();
-        int pizzaRows = pizza.Next(8, 13);
+        Random pepPizza = new Random();
+        int pizzaRows = pepPizza.Next(8, 13);
         Random order = new Random();
         int orderNum = order.Next(0, 150);
         Console.WriteLine($"Order up for order number {orderNum}");
@@ -91,7 +91,7 @@ static void PlainPizza()
                     Console.Write("^ ");
                 }
                 else{
-                    if (j > 0 && j < i - 1 && pizza.Next(0, 5) == 0){
+                    if (j > 0 && j < i - 1 && pepPizza.Next(0, 5) == 0){
                         Console.Write("[] ");
                     }
                     else{
