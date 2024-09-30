@@ -91,7 +91,7 @@ static void PlainPizza()
                     Console.Write("^ ");
                 }
                 else{
-                    if (j > 0 && j < i - 1 && pepPizza.Next(0, 5) == 0){
+                    if (j > 0 && j < i - 1 && pepPizza.Next(0, 12) == 0){
                         Console.Write("[] ");
                     }
                     else{
